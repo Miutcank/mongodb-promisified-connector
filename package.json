@@ -1,0 +1,44 @@
+{
+  "name": "mongodb-promisified-connector",
+  "version": "0.0.1",
+  "description": "Node.js MongoDB connector promisified with bluebird",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "precommit": "gulp lint",
+    "prepush": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Miutcank/mongodb-promisified-connector.git"
+  },
+  "author": {
+    "name": "miutcank",
+    "email": "zsolt@miutcank.hu",
+    "url": "http://miutcank.hu"
+  },
+  "contributors": [
+    {
+      "name": "Zsolt Bako",
+      "email": "zsolt@miutcank.hu"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "~2.9.30",
+    "config": "~1.13.0",
+    "convict": "~0.4.2",
+    "mongodb": "~2.0.33",
+    "node-nosuchmethod": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.8",
+    "gulp-eslint": "~0.11.1",
+    "gulp-help": "~1.1.0",
+    "gulp-istanbul": "~0.3.1",
+    "gulp-mocha": "~1.1.0",
+    "gulp-plato": "~1.0.1",
+    "husky": "~0.6.1",
+    "run-sequence": "~0.3.7"
+  }
+}

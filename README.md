@@ -12,7 +12,11 @@ Node.js MongoDB connector promisified with bluebird.
 ## Usage
 
 ``
-TODO
+var myCollection = require('mongodb-promisified-connector')('myCollectionName');
+myCollection.find({})
+  .then(function(resultArray) {
+    // you will get the documents array
+  });
 ``
 
 ## ENV vars
