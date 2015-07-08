@@ -10,9 +10,9 @@ Node.js MongoDB connector promisified with bluebird.
 - Custom logging
 
 ## Usage
+
 ``
 TODO
-
 ``
 
 ## ENV vars
