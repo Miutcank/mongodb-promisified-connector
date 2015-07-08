@@ -8,6 +8,7 @@ Node.js MongoDB connector promisified with bluebird.
 - Efficient, initiates a single connection at the first time you try to access a collection
 - Fault-tolerant, tries to reconnect if disconnected
 - Custom logging
+- Uses Proxy harmony feature (you must run node with `--harmony_proxies` argument)
 
 ## Usage
 
