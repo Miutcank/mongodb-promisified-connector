@@ -44,10 +44,9 @@ var MongoDbConnector = function MongoDbConnector(collectionName, log) {
     return Promise.resolve()
       .then(function checkConnection() {
         if (connection) {
-          log.debug('Connection exists');
           return Promise.resolve(connection);
         } else {
-          log.debug('No connection present, connecting...');
+          log.debug({}, 'No connection present, connecting...');
           return connectMongoDb();
         }
       })

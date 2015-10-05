@@ -1,6 +1,6 @@
 {
   "name": "mongodb-promisified-connector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js MongoDB connector promisified with bluebird",
   "main": "index.js",
   "scripts": {
@@ -25,10 +25,10 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "bluebird": "~2.9.30",
+    "bluebird": "~2.10.2",
     "config": "~1.13.0",
     "convict": "~0.4.2",
-    "mongodb": "~2.0.33",
+    "mongodb": "~2.0.45",
     "node-nosuchmethod": "^1.0.0"
   },
   "devDependencies": {
