@@ -99,4 +99,6 @@ var MongoDbConnector = function MongoDbConnector(collectionName, log) {
   return proxy;
 };
 
+MongoDbConnector.ObjectId = MongoDB.ObjectID;
+
 module.exports = MongoDbConnector;

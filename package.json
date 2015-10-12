@@ -1,6 +1,6 @@
 {
   "name": "mongodb-promisified-connector",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Node.js MongoDB connector promisified with bluebird",
   "main": "index.js",
   "scripts": {
